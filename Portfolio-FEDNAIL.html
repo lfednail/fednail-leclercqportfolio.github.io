@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Titre  -->
+   <title>Fednail - Portfolio</title>
+  <link rel="stylesheet"href="portfolio-FEDNAIL.css">
+  <link rel="shortcut icon"href="photo/fl.png">
+
+  <style>
+
+  .container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: gray;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+      
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+  </style>
+
+
+</head>
+<body>
+
+        <!-- Logo -->
+        <a class="logo" href="#">
+            
+         <img src="photo/logo.PNG" alt="" windth="10"/>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"><i class="fas fa-bars"></i></span>
+        </button>
+    
+        <!-- Menu -->
+        
+        <nav class="navbar">
+          <div class="topnav">
+            <ul>
+              <li><a class="active" href="Home">HOME</a></li>
+              <li><a href="Contact me.html">contact</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="competance.html">competance</a></li>
+            </ul> 
+          </div>
+        </nav>
+
+</li>
+  
+
+  <div class="container" onclick="myFunction(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  
+  <script>
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
+  
+
+</nav>
+        
+        <i style="color:grey"> <h1>Welcome to my Portfolio</h1></i>
+
+
+        <div class="mouse-cursor cursor-outer" style="visibility: visible; transform: translate(1362px, 38px);"></div>
+        <div class="mouse-cursor cursor-inner" style="visibility: visible; transform: translate(1357px, 578px);"></div>
+
+        <a href="Veilletech.html"><h3>Veille technologique</h3></a>
+        <a href="competance.html"><h3>Competences</h3></a>
+        <a href="cv_item4.pdf"><h3>CV</h3></a>
+        <a href="fednail-lettre de motivation.pdf"><h3>lettre de motivation</h3></a> <br>
+
+
+
+  
+
+ </body>
+</html>
